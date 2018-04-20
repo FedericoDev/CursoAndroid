@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/topText"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:onClick="clickText1"/>
+
+    <TextView
+        android:id="@+id/univ"
+        style="@style/topText"
+        android:padding="10dp"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/univ"
+        android:onClick="clickText2"/>
+
+    <TextView
+        android:id="@+id/quote"
+        style="@style/topText"
+        android:padding="10dp"
+        android:layout_below="@id/univ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quote"
+        android:onClick="clickText3"/>
+
+</RelativeLayout>
